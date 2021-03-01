@@ -117,13 +117,20 @@ body{
     padding: 1rem;
 }
 
+.download img{
+    height: 3rem;
+    width: 10rem;
+}
 .app-download {
     background-size: cover;
     height: 3rem;
     width: 10rem;
 }
 
-
+.app-download img{
+    height: 3rem;
+    width: 10rem;
+}
 @media (max-width:1024px){
     .instagram-wrapper{
         width: 90%;
