@@ -116,12 +116,6 @@ body{
     background-size: cover;
 }
 
-.app-download:nth-child(1){
-    background-image: url(https://thieleschwerz.github.io/Projeto-instagram-Bootcamp-Dio/apple-button.png);
-}
-.app-download:nth-child(2){
-    background-image: url(https://thieleschwerz.github.io/Projeto-instagram-Bootcamp-Dio/googleplay-button.png);
-}
 
 @media(max-width:1024px){
     .instagram-wrapper{
