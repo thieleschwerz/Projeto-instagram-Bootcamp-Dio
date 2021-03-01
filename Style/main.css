@@ -117,20 +117,21 @@ body{
     padding: 1rem;
 }
 
-.download img{
-    height: 3rem;
-    width: 10rem;
-}
+
 .app-download {
     background-size: cover;
     height: 3rem;
     width: 10rem;
 }
 
-.app-download img{
-    height: 3rem;
-    width: 10rem;
+
+.app-download:nth-child(1){
+    background-image: url(https://github.com/thieleschwerz/Projeto-instagram-Bootcamp-Dio/blob/master/apple-button.png);
 }
+.app-download:nth-child(2){
+    background-image: url(https://github.com/thieleschwerz/Projeto-instagram-Bootcamp-Dio/blob/master/googleplay-button.png);
+}
+
 @media (max-width:1024px){
     .instagram-wrapper{
         width: 90%;
