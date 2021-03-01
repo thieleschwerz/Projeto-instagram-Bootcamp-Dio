@@ -126,8 +126,8 @@ body{
 }
 
 .app-download img{
-   height: 5rem;
-    width: 10rem;  
+   height: 3rem;
+    width: 6rem;  
 }
 
 @media (max-width:1024px){
