@@ -66,6 +66,8 @@ body{
     justify-content: center;
     border-radius:50%;
     overflow: hidden;
+     width: 30%;
+    height: 40%;
 }
 
 .profile-proto img{
