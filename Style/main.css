@@ -124,6 +124,10 @@ body{
     width: 10rem;
 }
 
+.app-download img{
+   height: 3rem;
+    width: 10rem;  
+}
 
 @media (max-width:1024px){
     .instagram-wrapper{
