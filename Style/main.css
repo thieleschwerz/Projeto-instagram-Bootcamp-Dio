@@ -23,6 +23,7 @@ body{
     width: 60%;
     height: 100vh;
 }
+
 .instagram-phone{
     display: flex;
     align-items: center;
@@ -33,6 +34,7 @@ body{
 .instagram-phone img{
     width: 50rem;
 }
+
 .instagram-continue{
     display: flex;
     align-items: center;
@@ -57,13 +59,16 @@ body{
 .instagram-logo{
     height: 3rem;
 }
+
 .profile-photo{
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius:50%;
     overflow: hidden;
+    margin-top: 1rem;
 }
+
 .profile-proto img{
     height: 6rem;
 }
@@ -89,9 +94,11 @@ body{
 .not-account{
     color: rgb(160, 160,160);
 }
+
 .link-blue{
     color: #0096f6;
 }
+
 .get-the-app{
     display: flex;
     flex-direction: column;
@@ -99,7 +106,11 @@ body{
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+    height: 0;
+    margin-top: 3rem;
+    
 }
+
 .download{
     display: flex;
     width: 100%;
@@ -108,32 +119,38 @@ body{
     padding: 1rem;
 }
 
-.app-download{
+.app-download {
+    background-size: cover;
+}
+.app-download img{
     height: 3rem;
     width: 10rem;
-    background-size: cover;
 }
 
 
-@media(max-width:1024px){
+@media (max-width:1024px){
     .instagram-wrapper{
         width: 90%;
     }
 }
 
-@media(max-width:650px){
+@media (max-width:650px){
     body{
         background-color: #ffffff;
     }
+    
 .instagram-wrapper{
     width: 90%;
 }
+    
 .instagram-phone{
     display: none;
 }
+    
 .instagram-continue{
     width: 90%;
 }
+    
 .group{
     border: 1px solid transparent;
 }
