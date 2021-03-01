@@ -118,17 +118,15 @@ body{
 }
 
 .app-download {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 50%;
     height: 30%;
-    padding: 1.3rem 0; 
+    padding: 0;
+    margin:0;
 }
 
 .app-download img{
    height: 3rem;
-    width: 6rem;  
+    width: 10rem;  
 }
 
 @media (max-width:1024px){
