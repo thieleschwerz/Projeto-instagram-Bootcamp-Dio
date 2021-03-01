@@ -126,10 +126,10 @@ body{
 
 
 .app-download:nth-child(1){
-    background-image: url(https://github.com/thieleschwerz/Projeto-instagram-Bootcamp-Dio/blob/master/apple-button.png);
+    background-image: url(https://thieleschwerz.github.io/Projeto-instagram-Bootcamp-Dio/style/apple-button.png);
 }
 .app-download:nth-child(2){
-    background-image: url(https://github.com/thieleschwerz/Projeto-instagram-Bootcamp-Dio/blob/master/googleplay-button.png);
+    background-image: url(https://thieleschwerz.github.io/Projeto-instagram-Bootcamp-Dio/style//googleplay-button.png);
 }
 
 @media (max-width:1024px){
